@@ -1,0 +1,86 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+ h2{
+  font-size: 40px;
+  font-weight: 5px;
+
+ }
+ .ctitle{
+  float: left;
+  position: relative;
+ }
+ .gt{
+  float: left;
+  position: relative;
+ }
+.gc{
+  display: flex;
+
+}
+.ccate{
+  display: flex;
+}
+    .text{
+                     width: 85%;
+                    max-width: 600px;
+                    background-color: white;
+                    position: absolute;
+                    top: 10%;
+                    left:20%;
+                    padding: 30px 40px;
+                    border-radius: 8px;
+                    text-align: center;
+    }
+           label{
+                 font-size: 13px;
+                    font-weight: 2px;
+                    color: 3px solid black;
+                    display: block;
+                 text-align: left;
+                 text-transform: uppercase;
+                }
+                .input-box{
+                border: 1px solid black;
+                margin: 7px 0px ;
+                padding: 6px 20px ;
+                border-radius: 8px;
+                }
+                .input-box input{
+                    width: 100%;
+                    font-size: 19px;
+                    margin-top: 5px;
+                    border: none;
+                    background: none;
+                    outline: none;
+                }
+                    #btn{
+                    width: 100%;
+                    display: inline-block;
+                    background-color: green;
+                    padding: 14px 0px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    margin-top: 8px;
+                    color: antiquewhite;
+
+
+                  }
+                  .button{
+                    width: 100%;
+                    display: inline-block;
+                    background-color: green;
+                    padding: 14px 0px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    margin-top: 8px;
+                    color: antiquewhite;
+
+                }
+                .button:hover{
+                    color:black;
+                    background-color: orange;
+                }
+                    

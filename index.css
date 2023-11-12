@@ -1,0 +1,61 @@
+
+
+body{
+background-repeat: no-repeat ;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+  }
+  .button:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  a{
+   margin-left: 50px;
+   align-items: center;
+}
+img{
+   border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: relative;
+}
+h1{
+  font-size: 700%;
+  color: bisque;
+}
+h2{
+  margin-left: 10px;
+  font-size: 250%;
+  color: burlywood;
+}
+.banner video{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+  .banner video{
+    width: 100%;
+    height:auto;
+  }
+}
+p{
+  color: coral;
+}
+marquee{
+  behavior: alternate;
+}
+
